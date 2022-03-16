@@ -1,0 +1,94 @@
+﻿<html>
+	<head>
+		<title>Informações</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!--Fonte encontrada na net -->
+		<link rel="stylesheet" type="text/css" href="css/font3tipster.css" />
+		<!-- página inicial mais smooth -->
+		<link href="css/font2slider.css" rel="stylesheet">
+		<!-- Fontes responsivas -->
+		<link rel="stylesheet" href="css/font1.min.css">
+		<link href="estilo.css" rel="stylesheet" media="screen">	
+		<link href="responder.css" rel="stylesheet" media="screen">		
+		<link rel="stylesheet" href="css/nivo-slider.css" type="text/css" media="screen" />
+		<script src="js/jquery.min.js" type="text/javascript"></script>
+		<script src="js/jquery.nivo.slider.js" type="text/javascript"></script>
+
+		<script type="text/javascript">
+		$(window).load(function() {
+			$('#slider').nivoSlider({
+				effect:'random',
+				slices:15,
+				animSpeed:500,
+				pauseTime:1800,
+				startSlide:0, //slide inicial
+				directionNav:false,
+				directionNavHide:false, //mostrar informação quando o rato encima
+				controlNav:false, //1,2,3...
+				controlNavThumbs:false, //Usar thumbnails para controlar
+				pauseOnHover:true, //pausar quando o rato encima
+				manualAdvance:false, //forçar transições
+				captionOpacity:0.8, //opacidade
+				beforeChange: function(){},
+				afterChange: function(){},
+				slideshowEnd: function(){} //reset
+			});
+		});
+</script>		
+	</head>
+
+	<body>
+	
+		<section id="header_area">
+			<div class="wrapper header">
+				<div class="clearfix header_top">
+					<div class="clearfix logo floatleft">
+						<a href=""><h1><span>Informações</span></h1></a>
+					</div>
+					
+				</div>
+				<!-- Redirecionar páginas -->
+				<div class="header_bottom">
+					<nav>
+						<ul id="nav">
+							<li><a href="index.html">Página inicial</a></li>
+							<li id="dropdown"><a href="">Tipo de Espécies:</a>
+								<ul>
+									<li><a href="informexoticbird.html">Aves</a></li>
+									<li><a href="informexoticrept.html">Repteis</a></li>
+									<li><a href="informcao.html">Cães</a></li>
+									<li><a href="informpeixe.html">Peixes</a></li>
+									<li><a href="informgato.html">Gatos</a></li>
+									
+								</ul>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</section>
+		<!--Fotos / transições -->
+		<section id="content_area">
+			<div class="clearfix wrapper main_content_area">
+			
+
+				
+					<section id="content_area">
+					
+				    <div>
+					<div id="tooplate_middle">
+    	<div id="slider">
+            <a href="adocao.html"><img src="images/thumbs/cachorroindex.jpg" alt="" title="Max, Angeja, Fontão." /></a>
+            <a href="adocao.html"><img src="images/thumbs/cachorro1index.jpg" alt="" title="Pantofas, Canelas" /></a>
+            <a href="adocao.html"><img src="images/thumbs/araraindex.jpg" alt="" title="Iris, Agueda" /></a>
+        </div>	
+	</div> <!-- fim meio -->
+	<br>
+					</div>
+		<div>
+			
+					 </div>
+					
+
+	</body>
+</html>
